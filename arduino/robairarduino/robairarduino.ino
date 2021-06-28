@@ -19,7 +19,7 @@ void setup()
 void loop()
 {
 	// ROBOT MOVEMENT
-	robair.spinOnce();
 	nh.spinOnce();
+	robair.spinOnce();
 	delay(50);
 }

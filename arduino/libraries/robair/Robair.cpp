@@ -16,6 +16,7 @@ Robair::Robair(ros::NodeHandle &nh) :
 	battery_pub("battery_level", &battery_msg),
 	log_pub("log", &log_msg),
 	md49(Serial1),
+	md49_verin(Serial2),
 	sub_cmdvel("cmd_vel", &Robair::cmdvelCb, this),
 	motors_pub("motors_info", &motors_msg),
 	eyes_pub("eyes", &eyes_msg),
@@ -25,8 +26,29 @@ Robair::Robair(ros::NodeHandle &nh) :
 	head_pub("head", &head_msg),
 	sub_cmdhead("cmdhead", &Robair::cmdHeadCb, this),
 	sub_reboot("reboot", &Robair::rebootCb, this),
-	aru_pub("aru", &aru_msg)
 {
+}
+
+// Test verin
+void Robair::powerMD49Verin(bool on)
+{
+	digitalWrite(PIN_RMD49, on ? HIGH : LOW);
+	delay(100);
+	if (on) {
+		//md49_verin.setMode(MD49_MODE0);
+		md49_verin.setAccel(2);
+		md49_verin.resetEncoder();
+	}
+}
+
+void Robair::speed_control_Verin()
+{
+	md49.setSpeed2(ver_speed);
+}
+
+void Robair::verin_cb(const std_msgs::Int8& verin_speed_msg)
+{
+		ver_speed = verin_speed_msg.data;
 }
 
 
@@ -37,6 +59,7 @@ void Robair::powerMD49(bool on)
 	digitalWrite(PIN_RMD49, on ? HIGH : LOW);
 	delay(100);
 	if (on) {
+		//md49_verin.setMode(MD49_MODE0);
 		md49.setAccel(2);
 		md49.resetEncoder();
 	}
@@ -44,7 +67,6 @@ void Robair::powerMD49(bool on)
 
 void Robair::cmdvelCb(const geometry_msgs::Twist& command_msg)
 {
-	if (!aru) {
 		// Compute requested speed
 
 		double angular_comp = command_msg.angular.z * (ENTRAX / 2.0);
@@ -86,7 +108,7 @@ void Robair::cmdvelCb(const geometry_msgs::Twist& command_msg)
 			cmd_msg_speedR = 100;
 
 		last_cmdvel = millis();
-	}
+	
 }
 
 void Robair::stop_motors()
@@ -97,14 +119,9 @@ void Robair::stop_motors()
 
 void Robair::speed_control()
 {
-	if (aru
-	    || last_cmdvel + MOVE_TIMEOUT < millis()) {
-		cmd_speedL=0;
-		cmd_speedR=0;
-	} else {
+
 		cmd_speedL = cmd_msg_speedL;
 		cmd_speedR = cmd_msg_speedR;
-	}
 
 	uint8_t cml =map(cmd_speedL, -100, 100, 0, 255);
 	uint8_t cmr =map(cmd_speedR, -100, 100, 0, 255);
@@ -187,32 +204,6 @@ void Robair::rebootCb(const std_msgs::UInt8 &reboot_msg)
 }
 
 
-void Robair::checkStop()
-{
-	boolean oldaru;
-	float volts;
-
-	oldaru = aru;
-	
-	if (digitalRead(PIN_ARU) == LOW) {
-		aru = true;
-		timeoutARU = millis() + timeoutARUDelay;
-		setEyes(EYESSTOP);
-		stop_motors();
-		powerMD49(false);
-	} else if (aru && timeoutARU < millis()) {
-		aru = false;
-		setEyes(EYESSTRAIGHT);
-		powerMD49(true);
-	}
-
-	if (oldaru != aru) {
-		aru_msg.data = aru;
-		aru_pub.publish(&aru_msg);
-	}
-}
-
-
 // ==========================  LOG  =========================
 
 void Robair::log(String str)
@@ -236,13 +227,13 @@ void Robair::begin()
 
 	pinMode(PIN_RMD49, OUTPUT);
 	md49.init(9600);
+	md49_verin.init(9600);
 	powerMD49(true);
+	powerMD49Verin(true);
 
 
 	servoHead.attach(PIN_HEAD);
 	servoHead.write(90);
-
-	pinMode(PIN_ARU, INPUT_PULLUP);
 
 	eyes.setMatrice(EYESSTRAIGHT);
 	
@@ -255,7 +246,7 @@ void Robair::begin()
 	nh.subscribe(sub_eyesmat);
 	nh.advertise(head_pub);
 	nh.subscribe(sub_cmdhead);
-	nh.advertise(aru_pub);
+	nh.subscribe(sub_verin);
 	nh.spinOnce();
 
 }
@@ -296,15 +287,16 @@ void Robair::remote_control()
 
 void Robair::spinOnce()
 {
-	checkStop();
 
 	int val = 0;
 	val = cmd_msg_head - cmd_head;
 	if (abs(val) > head_inc)
 		val = head_inc * ((val < 0) ? -1 : 1);
 	setHead(cmd_head + val);
-        
-	check_battery(5000);
+
+	// Verin
+	speed_control_Verin();
 	remote_control();
 	speed_control();
+	check_battery(5000);
 }
