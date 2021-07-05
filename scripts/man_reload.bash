@@ -2,10 +2,16 @@ export ROBAIR_ARDUINO=/dev/serial/by-id/usb-Arduino_Srl_Arduino_Mega_55635303738
 export MONITOR_PORT="$ROBAIR_ARDUINO"
 
 
-cd /home/vincent/robair/RobAIR/catkin_ws
+cd /home/robair/RobAIR/catkin_ws
 catkin_make install
 
-rm -rf /home/vincent/robair/RobAIR/arduino/libraries/ros_lib
-rosrun rosserial_arduino make_libraries.py /home/vincent/robair/RobAIR/arduino/libraries
+cd /home/robair/RobAIR/arduino/libraries
 
-cd /home/vincent/robair/RobAIR/arduino/robairarduino && make clean && make upload
+rm -rf ./ros_lib
+echo "hi"
+rosrun rosserial_arduino make_libraries.py /home/robair/RobAIR/arduino/libraries
+echo "bye"
+
+cd /home/robair/RobAIR/arduino/robairarduino
+
+make clean && make upload

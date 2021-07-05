@@ -22,9 +22,8 @@
 #include <md49.h>
 #include <Papierlogik.h>
 
-// Constantes Verin
+// That moment where the lib is useless af
 #define CMD 0x00
-#define GET_VERSION 0x29
 #define SET_SPEED_2 0x32
 #define SET_MODE 0x34
 
@@ -35,11 +34,6 @@ private:
 
 	std_msgs::String log_msg;
 	ros::Publisher log_pub;
-
-	// Verin test
-	int ver_speed = 127;
-	ros::Subscriber<std_msgs::Int8, Robair> sub_verin;
-
 
 	// ========================  MOTORS  ========================
 	const uint8_t PIN_RMD49 = 5;
@@ -60,9 +54,6 @@ private:
 	void speed_control(void);
 
 	void powerMD49(bool on);
-
-	// Verin Test
-	MD49 md49_verin;
 
 
 	// ========================  BATTERY  =======================
@@ -85,7 +76,7 @@ private:
 
 
 	// =========================  HEAD  =========================
-	const uint8_t PIN_HEAD = 7;
+	const uint8_t PIN_HEAD = 3;
 	Adafruit_TiCoServo servoHead;
 	int cmd_msg_head = 0;
 	int cmd_head = 0;
@@ -100,9 +91,83 @@ private:
 	void cmdHeadCb(const std_msgs::Int8 &head_msg);
 
 
+	// ========================  BUMPERS  =======================
+	const uint8_t PIN_BUMPER_FRONT = A0;
+	const uint8_t PIN_BUMPER_REAR = A1;
+
+	std_msgs::Bool bumperFront_msg;
+	ros::Publisher bumperFront_pub;
+	std_msgs::Bool bumperRear_msg;
+	ros::Publisher bumperRear_pub;
+
+	Papierlogik papBumperFront;
+	Papierlogik papBumperRear;
+
+	float bumperFTresh = 0.06;
+	float bumperRTresh = 0.400;
+
+	boolean bumperFront;
+	boolean bumperRear;
+
+	void checkStop(void);
+
+
+	// =========================  TOUCH  ========================
+	const uint8_t PIN_TOUCH_LEFT = A3;
+	const uint8_t PIN_TOUCH_RIGHT = A2;
+
+	std_msgs::Bool touchLeft_msg;
+	ros::Publisher touchLeft_pub;
+	std_msgs::Bool touchRight_msg;
+	ros::Publisher touchRight_pub;
+
+	Papierlogik papTouchLeft;
+	Papierlogik papTouchRight;
+
+	float touchLeftTresh = 0.250;
+	float touchRightTresh = 0.250;
+
+	boolean touchLeft;
+	boolean touchRight;
+
+
+	unsigned long last_timestamp_touch = 0;
+	unsigned long touchDelay = 100;
+
+	void checkTouch(void);
+
+
 	// ========================  REBOOT  ========================
 	ros::Subscriber<std_msgs::UInt8,Robair> sub_reboot;
 	void rebootCb(const std_msgs::UInt8 &reboot_msg);
+
+
+	// ==========================  ARU  =========================
+	const uint8_t PIN_ARU = 2;
+	std_msgs::Bool aru_msg;
+	ros::Publisher aru_pub;
+	uint32_t timeoutARU = 0;
+	uint32_t timeoutARUDelay = 5000;
+
+	boolean aru = false;
+
+
+	// ========================  PARAMS  ========================
+	ros::Subscriber<std_msgs::Empty,Robair> sub_loadParams;
+	void loadParamsCb(const std_msgs::Empty&);
+
+	
+// Verin Test
+	MD49 md49_verin;
+	int ver_speed;
+	int old_speed;
+	std_msgs::UInt8 verin_msg;
+	ros::Subscriber<std_msgs::UInt8,Robair> verin_sub;
+	ros::Publisher verin_pub;
+	void powerMD49Verin(bool on);
+	void speed_control_Verin();
+	void verinCb(const std_msgs::UInt8 &verin_speed_msg);	
+
 
 	// ========================  SERIE DEBUG  ========================
 	

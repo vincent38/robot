@@ -1,0 +1,583 @@
+[  0%] Built target _rosserial_mbed_generate_messages_check_deps_Test
+[  0%] Built target _rosserial_arduino_generate_messages_check_deps_Adc
+[  0%] Built target _rosserial_mbed_generate_messages_check_deps_Adc
+[  0%] Built target _rosserial_arduino_generate_messages_check_deps_Test
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_TopicInfo
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_RequestParam
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_RequestMessageInfo
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_Log
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _rosserial_msgs_generate_messages_check_deps_RequestServiceInfo
+[  0%] Built target _robairmain_generate_messages_check_deps_MotorsCmd
+[  0%] Built target _robairmain_generate_messages_check_deps_MotorsInfo
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _robairmain_generate_messages_check_deps_EyesMat
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_py
+[  2%] Built target rosserial_arduino_generate_messages_lisp
+[  7%] Built target rosserial_arduino_generate_messages_py
+[  9%] Built target odometry_tf_broadcaster
+[ 12%] Built target rosserial_arduino_generate_messages_nodejs
+[ 15%] Built target rosserial_arduino_generate_messages_eus
+[ 18%] Built target rosserial_arduino_generate_messages_cpp
+[ 20%] Built target rosserial_mbed_generate_messages_lisp
+[ 25%] Built target rosserial_mbed_generate_messages_py
+[ 26%] Built target rosserial_mbed_generate_messages_cpp
+[ 30%] Built target rosserial_mbed_generate_messages_eus
+[ 32%] Built target rosserial_mbed_generate_messages_nodejs
+[ 39%] Built target rosserial_msgs_generate_messages_eus
+[ 45%] Built target rosserial_msgs_generate_messages_lisp
+[ 51%] Built target rosserial_msgs_generate_messages_cpp
+[ 57%] Built target rosserial_msgs_generate_messages_nodejs
+[ 66%] Built target rosserial_msgs_generate_messages_py
+[ 69%] Built target robairmain_generate_messages_cpp
+[ 74%] Built target robairmain_generate_messages_py
+[ 79%] Built target robairmain_generate_messages_eus
+[ 83%] Built target robairmain_generate_messages_nodejs
+[ 86%] Built target robairmain_generate_messages_lisp
+[ 89%] Built target proxy
+[ 91%] Built target rosserial_server_udp_socket_node
+[ 93%] Built target rosserial_server_serial_node
+[ 96%] Built target rosserial_server_socket_node
+[100%] Built target odometry_node
+[100%] Built target rosserial_arduino_generate_messages
+[100%] Built target rosserial_mbed_generate_messages
+[100%] Built target rosserial_msgs_generate_messages
+[100%] Built target robairmain_generate_messages
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/_setup_util.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/env.sh
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/setup.bash
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/setup.sh
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/setup.zsh
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/.rosinstall
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/msg/Adc.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/srv/Test.srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/cmake/rosserial_arduino-msg-paths.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_arduino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_arduino/TestRequest.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_arduino/Adc.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_arduino/Test.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_arduino/TestResponse.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_arduino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_arduino/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_arduino/srv/Test.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_arduino/manifest.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_arduino/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_arduino/msg/Adc.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/srv/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/srv/Test.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/srv/_package_Test.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/srv/rosserial_arduino-srv.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/msg/rosserial_arduino-msg.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/msg/Adc.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/msg/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_arduino/msg/_package_Adc.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/srv/Test.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/srv/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/msg/Adc.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/msg/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_arduino/_index.js
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_arduino ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_arduino/msg ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_arduino/srv ...
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/srv/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/srv/_Test.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/srv/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/srv/_Test.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/msg/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/msg/_Adc.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/msg/_Adc.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_arduino/msg/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_arduino.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/cmake/rosserial_arduino-msg-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/cmake/rosserial_arduino-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/cmake/rosserial_arduinoConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/cmake/rosserial_arduinoConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/ArduinoHardware.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/ArduinoTcpHardware.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ADC
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ADC/ADC.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/IrRanger
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/IrRanger/IrRanger.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Esp8266HelloWorld
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Esp8266HelloWorld/Esp8266HelloWorld.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServiceServer
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServiceServer/ServiceServer.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServiceClient
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServiceClient/client.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServiceClient/ServiceClient.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Clapper
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Clapper/Clapper.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/TimeTF
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/TimeTF/TimeTF.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/BlinkM
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/BlinkM/BlinkM.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/BlinkM/BlinkM_funcs.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/TcpHelloWorld
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/TcpHelloWorld/TcpHelloWorld.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/pubsub
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/pubsub/pubsub.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Ultrasound
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Ultrasound/Ultrasound.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/TcpBlink
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/TcpBlink/TcpBlink.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/HelloWorld
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/HelloWorld/HelloWorld.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Blink
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Blink/Blink.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Temperature
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Temperature/Temperature.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/button_example
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/button_example/button_example.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServoControl
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/ServoControl/ServoControl.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Odom
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Odom/Odom.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/BlinkerWithClass
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/BlinkerWithClass/BlinkerWithClass.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Logging
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/examples/Logging/Logging.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests/time_test
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests/time_test/time_test.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests/array_test
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests/array_test/array_test.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests/float64_test
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/tests/float64_test/float64_test.pde
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/src/ros_lib/ros.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/arduino-cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/arduino-cmake/cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/arduino-cmake/cmake/ArduinoToolchain.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/arduino-cmake/cmake/Platform
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/arduino-cmake/cmake/Platform/Arduino.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_arduino/make_libraries.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/msg/Adc.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/srv/Test.srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/cmake/rosserial_mbed-msg-paths.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_mbed
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_mbed/TestRequest.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_mbed/Adc.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_mbed/Test.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_mbed/TestResponse.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_mbed
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_mbed/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_mbed/srv/Test.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_mbed/manifest.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_mbed/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_mbed/msg/Adc.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/srv/rosserial_mbed-srv.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/srv/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/srv/_package_Test.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/msg/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/msg/rosserial_mbed-msg.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_mbed/msg/_package_Adc.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/srv/Test.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/srv/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/msg/Adc.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/msg/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_mbed/_index.js
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/msg ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/srv ...
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/srv/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/srv/_Test.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/srv/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/srv/_Test.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/msg/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/msg/_Adc.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/msg/_Adc.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_mbed/msg/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_mbed.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/cmake/rosserial_mbed-msg-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/cmake/rosserial_mbedConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/cmake/rosserial_mbedConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/MbedHardware.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial.lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/ros.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial/Buffer
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial/Buffer/Buffer.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial/Buffer/Buffer.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial/Buffer.lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial/BufferedSerial.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_mbed/src/ros_lib/BufferedSerial/BufferedSerial.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_mbed/make_libraries.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/msg/Log.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/msg/TopicInfo.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/srv/RequestMessageInfo.srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/srv/RequestParam.srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/srv/RequestServiceInfo.srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/cmake/rosserial_msgs-msg-paths.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestParam.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestParamRequest.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/Log.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestParamResponse.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/TopicInfo.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestMessageInfoRequest.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestServiceInfoResponse.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestServiceInfo.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestMessageInfo.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestServiceInfoRequest.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_msgs/RequestMessageInfoResponse.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/srv/RequestMessageInfo.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/srv/RequestServiceInfo.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/srv/RequestParam.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/manifest.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/msg/Log.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/rosserial_msgs/msg/TopicInfo.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/RequestServiceInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/_package_RequestMessageInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/_package_RequestParam.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/rosserial_msgs-srv.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/RequestMessageInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/RequestParam.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/srv/_package_RequestServiceInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg/Log.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg/_package_Log.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg/rosserial_msgs-msg.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg/_package_TopicInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/rosserial_msgs/msg/TopicInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/srv/RequestMessageInfo.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/srv/RequestParam.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/srv/RequestServiceInfo.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/srv/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/msg/Log.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/msg/TopicInfo.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/msg/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/rosserial_msgs/_index.js
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/srv ...
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestMessageInfo.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestServiceInfo.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_msgs.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/cmake/rosserial_msgs-msg-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/cmake/rosserial_msgsConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/cmake/rosserial_msgsConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_msgs/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_python.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_python/cmake/rosserial_pythonConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_python/package.xml
++ cd /home/robair/RobAIR/catkin_ws/src/rosserial/rosserial_python
++ mkdir -p /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages:/home/robair/RobAIR/catkin_ws/build/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/robair/RobAIR/catkin_ws/build /usr/bin/python /home/robair/RobAIR/catkin_ws/src/rosserial/rosserial_python/setup.py build --build-base /home/robair/RobAIR/catkin_ws/build/rosserial/rosserial_python install --install-layout=deb --prefix=/home/robair/RobAIR/catkin_ws/install --install-scripts=/home/robair/RobAIR/catkin_ws/install/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_python-0.7.7.egg-info
+Writing /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_python-0.7.7.egg-info
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_python/message_info_service.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_python/serial_node.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_tivac.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/cmake/rosserial_tivac-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/cmake/rosserial_tivacConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/cmake/rosserial_tivacConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/tivac_hardware_usb.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/tivac_hardware.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/usb_serial_structs.c
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/usb_serial_structs.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/ros.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/tivac_hardware.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib/startup_gcc.c
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/examples
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/examples/rgb
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/examples/rgb/rgb.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/examples/chatter
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/examples/chatter/chatter.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/TivaCHardware.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/time_test
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/time_test/time_test.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/array_test
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/array_test/array_test.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/array_test/test_data
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/float64_test
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/tests/float64_test/float64_test.ino
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/src/ros_lib_energia/ros.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/tivac-cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/tivac-cmake/tm4c123g.ld
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/tivac-cmake/cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/tivac-cmake/cmake/TivaCToolchain.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/tivac-cmake/tm4c1294.ld
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/tivac-cmake/tiva.specs
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/make_libraries_energia
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_tivac/make_libraries_tiva
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_xbee.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_xbee/cmake/rosserial_xbeeConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_xbee/cmake/rosserial_xbeeConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_xbee/package.xml
++ cd /home/robair/RobAIR/catkin_ws/src/rosserial/rosserial_xbee
++ mkdir -p /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages:/home/robair/RobAIR/catkin_ws/build/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/robair/RobAIR/catkin_ws/build /usr/bin/python /home/robair/RobAIR/catkin_ws/src/rosserial/rosserial_xbee/setup.py build --build-base /home/robair/RobAIR/catkin_ws/build/rosserial/rosserial_xbee install --install-layout=deb --prefix=/home/robair/RobAIR/catkin_ws/install --install-scripts=/home/robair/RobAIR/catkin_ws/install/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_xbee-0.7.7.egg-info
+Writing /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_xbee-0.7.7.egg-info
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_xbee/setup_xbee.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_xbee/xbee_network.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_client.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/cmake/rosserial_client-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/cmake/rosserial_clientConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/cmake/rosserial_clientConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/package.xml
++ cd /home/robair/RobAIR/catkin_ws/src/rosserial/rosserial_client
++ mkdir -p /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages:/home/robair/RobAIR/catkin_ws/build/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/robair/RobAIR/catkin_ws/build /usr/bin/python /home/robair/RobAIR/catkin_ws/src/rosserial/rosserial_client/setup.py build --build-base /home/robair/RobAIR/catkin_ws/build/rosserial/rosserial_client install --install-layout=deb --prefix=/home/robair/RobAIR/catkin_ws/install --install-scripts=/home/robair/RobAIR/catkin_ws/install/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_client-0.7.7.egg-info
+Writing /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/rosserial_client-0.7.7.egg-info
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/tf
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/tf/tf.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/tf/transform_broadcaster.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/publisher.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/node_handle.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/service_client.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/duration.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/msg.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/time.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/service_server.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/ros/subscriber.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/duration.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_client/src/ros_lib/time.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_client/make_libraries
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_client/make_library.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/msg/MotorsCmd.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/msg/MotorsInfo.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/msg/EyesMat.msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/cmake/robairmain-msg-paths.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/robairmain
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/robairmain/MotorsCmd.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/robairmain/EyesMat.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/robairmain/MotorsInfo.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/robairmain
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/robairmain/manifest.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/robairmain/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/robairmain/msg/MotorsInfo.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/robairmain/msg/MotorsCmd.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/roseus/ros/robairmain/msg/EyesMat.l
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/_package_MotorsCmd.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/robairmain-msg.asd
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/MotorsCmd.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/MotorsInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/_package.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/_package_MotorsInfo.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/_package_EyesMat.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/common-lisp/ros/robairmain/msg/EyesMat.lisp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain/msg/MotorsCmd.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain/msg/MotorsInfo.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain/msg/EyesMat.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain/msg/_index.js
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/gennodejs/ros/robairmain/_index.js
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/robairmain ...
+Listing /home/robair/RobAIR/catkin_ws/devel/lib/python2.7/dist-packages/robairmain/msg ...
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/_MotorsCmd.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/__init__.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/_MotorsCmd.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/_EyesMat.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/_MotorsInfo.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/_EyesMat.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/__init__.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/python2.7/dist-packages/robairmain/msg/_MotorsInfo.pyc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/robairmain.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/cmake/robairmain-msg-extras.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/cmake/robairmainConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/cmake/robairmainConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/robairmain/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_server.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/cmake/rosserial_serverConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/cmake/rosserial_serverConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_server/serial_node
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_server/socket_node
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_server/udp_socket_node
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/launch
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/launch/socket.launch
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/launch/udp_socket.launch
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_server/launch/serial.launch
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/udp_stream.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/session.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/topic_handlers.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/async_read_buffer.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/udp_socket_session.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/tcp_server.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/include/rosserial_server/serial_session.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/odometry.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/odometry/cmake/odometryConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/odometry/cmake/odometryConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/odometry/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_embeddedlinux.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/ros_lib/embedded_linux_hardware.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/ros_lib/ros.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/ros_lib/embedded_linux_comms.c
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleSubscriber
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleSubscriber/ExampleSubscriber.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProServoSubscribe
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProServoSubscribe/VEXProServoSubscribe.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleServiceClient
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleServiceClient/ExampleServiceClient.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleServiceClient/exampleService.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProMotor13Subscribe
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProMotor13Subscribe/VEXProMotor13Subscribe.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/HelloRos
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/HelloRos/HelloROS.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleService
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/ExampleService/ExampleService.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProRangePublish
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProRangePublish/VEXProRangePublish.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProRangeMotorLoop
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_embeddedlinux/src/examples/VEXProRangeMotorLoop/VEXProRangeMotorLoop.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_embeddedlinux/make_libraries.py
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_test.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_test/cmake/rosserial_testConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_test/cmake/rosserial_testConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_test/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_test/generate_client_ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/pkgconfig/rosserial_windows.pc
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/cmake/rosserial_windowsConfig.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/cmake/rosserial_windowsConfig-version.cmake
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/package.xml
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/src/ros_lib
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/src/ros_lib/WindowsSocket.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/src/ros_lib/ros.h
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/share/rosserial_windows/src/ros_lib/WindowsSocket.cpp
+-- Up-to-date: /home/robair/RobAIR/catkin_ws/install/lib/rosserial_windows/make_libraries.py
+Base path: /home/robair/RobAIR/catkin_ws
+Source space: /home/robair/RobAIR/catkin_ws/src
+Build space: /home/robair/RobAIR/catkin_ws/build
+Devel space: /home/robair/RobAIR/catkin_ws/devel
+Install space: /home/robair/RobAIR/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/robair/RobAIR/catkin_ws/build"
+####
+####
+#### Running command: "make install -j4 -l4" in "/home/robair/RobAIR/catkin_ws/build"
+####
+hi
+bye
+-------------------------
+Arduino.mk Configuration:
+- [AUTODETECTED]       CURRENT_OS = LINUX 
+- [USER]               ARDUINO_DIR = /usr/share/arduino 
+- [COMPUTED]           ARDMK_DIR = /home/robair/RobAIR/arduino/makefiles (relative to Common.mk)
+- [AUTODETECTED]       ARDUINO_VERSION = 105 
+- [DEFAULT]            ARCHITECTURE =  
+- [DEFAULT]            ARDMK_VENDOR = arduino 
+- [USER]               ARDUINO_SKETCHBOOK = /home/robair/RobAIR/arduino 
+- [USER]               AVR_TOOLS_DIR = /usr 
+- [COMPUTED]           ARDUINO_LIB_PATH = /usr/share/arduino/libraries (from ARDUINO_DIR)
+- [COMPUTED]           ARDUINO_VAR_PATH = /usr/share/arduino/hardware/arduino//variants (from ARDUINO_DIR)
+- [COMPUTED]           BOARDS_TXT = /usr/share/arduino/hardware/arduino//boards.txt (from ARDUINO_DIR)
+- [USER]               USER_LIB_PATH = /home/robair/RobAIR/arduino/libraries 
+- [DEFAULT]            PRE_BUILD_HOOK = pre-build-hook.sh 
+- [USER]               BOARD_TAG = mega2560 
+- [COMPUTED]           CORE = arduino (from build.core)
+- [COMPUTED]           VARIANT = mega (from build.variant)
+- [COMPUTED]           OBJDIR = build-mega2560 (from BOARD_TAG)
+- [COMPUTED]           ARDUINO_CORE_PATH = /usr/share/arduino/hardware/arduino//cores/arduino (from ARDUINO_DIR, BOARD_TAG and boards.txt)
+- [ASSUMED]            MONITOR_BAUDRATE = 9600 

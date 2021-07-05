@@ -150,10 +150,7 @@ if [ ! -f /etc/udev/rules.d/77-arduino.rules ]; then
 fi
 
 # Installation des paquets
-start_job "Ajoute les dépôts ROS"
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-sudo -E apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
-end_job
+
 
 start_job "Met à jour les listes de paquets"
 sudo -E apt-get update
@@ -162,8 +159,8 @@ end_job
 
 start_job "Installe les paquets nécessaires"
 sudo -E apt-get -y install coturn nodejs-legacy npm chromium-browser arduino \
-	ros-noetic-ros-base ros-noetic-rosbridge-suite ros-noetic-urg-node \
-	ros-noetic-tf mongodb python-pymongo scons
+	ros-kinetic-ros-base ros-kinetic-rosbridge-suite ros-kinetic-urg-node \
+	ros-kinetic-tf mongodb python-pymongo scons
 end_job
 
 start_job "Met à jour les dépendances ROS"
