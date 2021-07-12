@@ -287,7 +287,7 @@ void Robair::powerMD49Verin(bool on)
 	delay(100);
 	if (on) {
 		md49_verin.setMode(MD49_MODE0);
-		md49_verin.setAccel(2);
+		md49_verin.setAccel(0);
 		md49_verin.resetEncoder();
 	}
 }

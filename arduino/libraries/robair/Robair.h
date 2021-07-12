@@ -76,7 +76,7 @@ private:
 
 
 	// =========================  HEAD  =========================
-	const uint8_t PIN_HEAD = 3;
+	const uint8_t PIN_HEAD = 6;
 	Adafruit_TiCoServo servoHead;
 	int cmd_msg_head = 0;
 	int cmd_head = 0;

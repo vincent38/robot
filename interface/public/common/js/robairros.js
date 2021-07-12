@@ -1,5 +1,6 @@
 var ros = new ROSLIB.Ros({
-    url: 'wss:' + config.serverurl + ':' + config.rosport
+    //url: 'wss:' + config.serverurl + ':' + config.rosport
+url: 'wss:localhost:' + config.rosport
 });
 
 ros.on('connection', function() {

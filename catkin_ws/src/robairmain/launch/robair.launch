@@ -19,11 +19,19 @@
   <node pkg="robairmain" type="proxy" name="proxy">
   </node>
   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
-     <arg name="port" value="6777"/>
+     <arg name="port" value="6968"/>
      <arg name="ssl" value="true"/>
      <arg name="certfile" value="$(env ROBAIR_HOME)/ssl/device.crt"/>
      <arg name="keyfile" value="$(env ROBAIR_HOME)/ssl/device.key"/>
   </include>
+
+  <!-- Video feed -->
+   <include file="$(find video_stream_opencv)/launch/camera.launch" >
+        <!-- node name and ros graph name -->
+        <arg name="camera_name" value="webcam" />
+        <!-- means video device 0, /dev/video0 -->
+        <arg name="video_stream_provider" value="0" />
+   </include>
 
   <!-- Odometry -->
   <node pkg="odometry" type="odometry_node" name="odometry_node">
