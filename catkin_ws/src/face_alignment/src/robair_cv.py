@@ -101,6 +101,7 @@ class CamCtrl:
 
 			bigx = 320
 			bigy = 240
+
 			try:
 			    # Try to read the image as a cv2 data
 			    cvi = self.bridge.compressed_imgmsg_to_cv2(self.gData, "bgr8")
@@ -195,6 +196,8 @@ class CamCtrl:
 			    """
 			    rp.loginfo("LOST IN THOUGHTS")
 			    print("Lookup")
+			    self.lastRot = 0
+			    self.lastUD = 0
 			    self.head = self.head + self.padding
 			    if self.head < -128:
 				self.head = -128
