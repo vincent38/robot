@@ -1,0 +1,4 @@
+if mode is detection and face found, follow face by sending commands
+if mode is detection and no face, track face by going towards the last known position
+finally go to lookup by going randomly to positions
+
