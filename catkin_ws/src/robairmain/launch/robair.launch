@@ -19,19 +19,28 @@
   <node pkg="robairmain" type="proxy" name="proxy">
   </node>
   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
-     <arg name="port" value="6968"/>
+     <arg name="port" value="6969"/>
      <arg name="ssl" value="true"/>
      <arg name="certfile" value="$(env ROBAIR_HOME)/ssl/device.crt"/>
      <arg name="keyfile" value="$(env ROBAIR_HOME)/ssl/device.key"/>
   </include>
 
   <!-- Video feed -->
-   <include file="$(find video_stream_opencv)/launch/camera.launch" >
-        <!-- node name and ros graph name -->
-        <arg name="camera_name" value="webcam" />
-        <!-- means video device 0, /dev/video0 -->
-        <arg name="video_stream_provider" value="0" />
-   </include>
+   <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="video_device" value="/dev/video1" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="io_method" value="mmap"/>
+  </node>
+   <node name="image_view" pkg="image_view" type="image_view" respawn="false" output="screen">
+    <remap from="image" to="/usb_cam/image_raw"/>
+    <param name="autosize" value="true" />
+  </node> 
+   <node pkg="face_alignment" type="robair_cv.py" name="face_alignment">
+  </node> 
+
 
   <!-- Odometry -->
   <node pkg="odometry" type="odometry_node" name="odometry_node">

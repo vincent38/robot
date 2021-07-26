@@ -16,6 +16,8 @@ startme() {
     exit 0
   fi
 
+  echo "wat"
+
   if should_run_systemd "$@"; then
     exec systemctl --user start robair.service
   fi
