@@ -142,6 +142,7 @@ class CamCtrl:
 				bigy = y + h/2
 				hasFace = True
 				self.mode = DETECTION_MODE
+			
 			# If a face is found on the camera output
 			if self.mode == DETECTION_MODE and hasFace: # Follow the face by rotating and translating the face
 			    """
