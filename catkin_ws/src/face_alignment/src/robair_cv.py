@@ -9,17 +9,14 @@ from cv_bridge import CvBridge, CvBridgeError
 import time
 import traceback
 import random
+import numpy as np
 
 """
 TODO:
 
-    - Improve the lookup pattern, to find a face in the range reachable by the robot
-
     - Change the face detection process if possible and compute the time taken by both to compare them ?
 
     - Implement Tilt lookup (first find a person via tilt, then lift the head until tilt is at 90 degrees. Problem: no idea where the verin is and what is its "range") => Is it even possible ?
-
-    - Improve primitive tracking of a person (if face lost, process the move on same direction for 2 seconds, and either catch back the face or swap to lookup) 
     
 """
 
@@ -58,8 +55,9 @@ class CamCtrl:
         self.bridge = CvBridge()
         self.pV = rp.Publisher('verin_speed', UInt8, queue_size=10)
         self.pH = rp.Publisher('cmdhead', Int8, queue_size=10)
-	print("[DEBUG] Loading CV2 classifier ?")
+	print("[DEBUG] Loading CV2 classifiers")
         self.face_cascade = cv2.CascadeClassifier('/home/robair/RobAIR/catkin_ws/src/face_alignment/src/haarcascade_frontalface_default.xml')
+	#self.net = cv2.dnn.readNetFromCaffe('/home/robair/RobAIR/catkin_ws/src/face_alignment/src/deploy.prototxt', '/home/robair/RobAIR/catkin_ws/src/face_alignment/src/res10_300x300_ssd_iter_140000.caffemodel')
 	print("done.")
         self.s = rp.Subscriber('usb_cam/image_raw/compressed', CompressedImage, self.printIt, queue_size=1)
         self.sH = rp.Subscriber('head', Int8, self.updateHead)
@@ -111,8 +109,30 @@ class CamCtrl:
 			# Use the legacy face detection
 			gray = cv2.cvtColor(cvi, cv2.COLOR_BGR2GRAY)
 			faces = self.face_cascade.detectMultiScale(gray, 1.1, 4)
+			#blob = cv2.dnn.blobFromImage(cv2.resize(cvi, (640, 480)), 1.0, (640, 480), (104.0, 177.0, 123.0))
+			#self.net.setInput(blob)
+			#detect = self.net.forward()
 			# For all potential faces found, loop and only keep the biggest rectangle detected (i.e. the closest)
 			# In any case, consider that a face is found as soon as condition is triggered and swap to detection mode
+			"""
+			# New detection system
+			for i in range (0, detect.shape[2]):
+			    conf = detect[0, 0, i, 2]
+			    if conf > 0.8:
+				box = detect[0, 0, i, 3:7] * np.array([640, 480, 640, 480])
+				(x, y, ex, ey) = box.astype("int")
+				w = ex - x
+				h = ey - y
+				cv2.rectangle(cvi, (x, y), (x+w, y+h), (255, 0, 0), 2)
+				if w > bigw and h  > bigh:
+				bigw = w
+				bigh = h
+				bigx = x + w/2
+				bigy = y + h/2
+				hasFace = True
+				self.mode = DETECTION_MODE
+			"""
+				
 			for (x, y, w, h) in faces:
 			    cv2.rectangle(cvi, (x, y), (x+w, y+h), (255, 0, 0), 2)
 			    if w > bigw and h  > bigh:
@@ -128,13 +148,13 @@ class CamCtrl:
 			    We log the movements done by the robot to follow the face. This is used on the tracking step later.
 			    """
 			    rp.loginfo("FACE FOLLOW")
-			    if bigx < 300:
+			    if bigx < 290:
 			        # Left
 			        self.head = self.head - 5
 				self.lastRot = -1
 			        if self.head < -128:
 				    self.head = -128
-   			    elif bigx > 340:
+   			    elif bigx > 350:
 			        # Right
 			        self.head = self.head + 5
 				self.lastRot = 1
